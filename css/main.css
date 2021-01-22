@@ -1,5 +1,49 @@
+/* Regole Generali */
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(179, 179, 0);
+  font-family: 'Potta One', cursive;
+}
+/* Regole Main */
+
+.box {
+  height: 100vh;
+  width: auto;
+  position: relative;
+  border: 20px solid rgb(179, 179, 0);
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.layover {
+  background-color: rgba(255,255,255, 0.1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 900;
+  border-radius: 50px;
+}
+
+.title {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 75px;
+  text-shadow: 2px 2px rgb(179, 179, 0);
+  z-index: 950;
 }
